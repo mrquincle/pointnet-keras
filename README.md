@@ -1,13 +1,25 @@
-# pointnet-keras
-Original tensorflow implementation: https://github.com/charlesq34/pointnet
+# Pointnet Keras
+
+Sources: Original [tensorflow implementation](https://github.com/charlesq34/pointnet) and [Keras implementation](https://github.com/garyli1019/pointnet-keras).
 
 Package requirement: Python3.6, keras, tensorflow, numpy, matplotlib, h5py
 
-# Classification:
-Download the aligned dataset from https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip
-Put all traning h5 files under Prepdata folder, all testing h5 files under Prepdata_test folder, then run train_cls.py. Accuracy rate will be 82.5%, which is slightly lower than the original implementation. 
+# Classification
 
-# Segmentation:
-Download and unzip the shapenet dataset from https://shapenet.cs.stanford.edu/ericyi/shapenetcore_partanno_v0.zip. 
-Run Seg_dataprep.py then train_seg.py.
+All corresponding .h5 files can be found under Prepdata (for training) and Prepdata_test for testing. This makes it possible to run it from https://colab.research.google.com.
+
+You can experiment with it from the command line, open a new Notebook. Go to "Edit" - "Notebook settings" and select a GPU for acceleration.
+
+Now download the code and the data from github (this takes a while because the files are big: > 50 MB).
+
+    !git clone github.com:mrquincle/pointnet-keras.git
+
+Now you can run the script immediately from the command line as well:
+
+    !cd pointnet-keras && python3 train_cls.py
+
+No need to install anything, no python3, no keras, no tensorflow, no numpy, no matplotlib, no h5py. It is an amazing world. :-D
+
+Accuracy rate should be at around 82.5% (below original implementation). I've to check this.
+
 
