@@ -14,7 +14,31 @@ Now you can run the script immediately from the command line as well:
 
 No need to install anything, no python3, no keras, no tensorflow, no numpy, no matplotlib, no h5py. It is an amazing world. :-D
 
-Accuracy rate should be at around 82.5% (below original implementation). I've to check this.
+Accuracy rate should be at around 82.5% (not as good as in the original implementation). I've to check this still, first five epochs:
+
+    /content/pointnet-keras/PrepData                                                                                    
+    ['ply_data_train1.h5', 'ply_data_train2.h5', 'ply_data_train4.h5', 'ply_data_train0.h5', 'ply_data_train3.h5']      
+    /content/pointnet-keras/PrepData_test                                                                               
+    ['ply_data_test0.h5', 'ply_data_test1.h5']                                                                          
+    Epoch 1/1                                                                                                           
+    9840/9840 [==============================] - 163s 17ms/step - loss: 3.3870 - acc: 0.2481                            
+    Current epoch is:1                                                                                                  
+    Epoch 1/1                                                                                                           
+    9840/9840 [==============================] - 159s 16ms/step - loss: 2.1239 - acc: 0.4228                            
+    Current epoch is:2                                                                                                  
+    Epoch 1/1                                                                                                           
+    9840/9840 [==============================] - 159s 16ms/step - loss: 1.7355 - acc: 0.5086                            
+    Current epoch is:3                                                                                                  
+    Epoch 1/1                                                                                                           
+    9840/9840 [==============================] - 159s 16ms/step - loss: 1.5330 - acc: 0.5547                            
+    Current epoch is:4                                                                                                  
+    Epoch 1/1                                                                                                           
+    9840/9840 [==============================] - 159s 16ms/step - loss: 1.4365 - acc: 0.5827                            
+    Current epoch is:5                                                                                                  
+    2468/2468 [==============================] - 22s 9ms/step                                                           
+    Test loss:  1.332594810080876                                                                                       
+    Test accuracy:  0.5818476499189628                                                               
+
 
 # Original Sources
 
