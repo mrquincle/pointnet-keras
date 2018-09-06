@@ -14,10 +14,8 @@ Now you can run the script immediately from the command line as well:
 
 No need to install anything, no python3, no keras, no tensorflow, no numpy, no matplotlib, no h5py. It is an amazing world. :-D
 
-Accuracy rate should be at around 82.5% (not as good as in the original implementation). I've to check this still, first five epochs:
+Accuracy rate should be at around 82.5% (not as good as in the original implementation). I myself see more like 72%.
 
-    
-    
     Using TensorFlow backend.
     2018-09-06 16:32:46.147706: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
     2018-09-06 16:32:46.148321: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
