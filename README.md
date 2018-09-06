@@ -1,6 +1,6 @@
 # Classification
 
-All corresponding .h5 files can be found under Prepdata (for training) and Prepdata_test for testing. This makes it possible to run it from https://colab.research.google.com.
+All corresponding .h5 files can be found under PrepData (for training) and PrepData_test for testing. This makes it possible to run it from https://colab.research.google.com.
 
 You can experiment with it from the command line, open a new Notebook. Go to "Edit" - "Notebook settings" and select a GPU for acceleration.
 
